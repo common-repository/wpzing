@@ -1,0 +1,27 @@
+/* zWall Sticker */
+#zWallSticker {position: fixed; width: 290px;max-height: 95%; padding: 0; right: 0px;color:#0e3668; font-family: Arial, sans-serif; font-size: 13px; bottom: 0px; z-index: 9999; background: #FFF; }
+#zWallStickerHeader{cursor:pointer;background: url('../images/sticker/sticker-light/header-bg.png') repeat-x;height: 28px;font-size: 15px;padding-right: 20px}
+#zWallStickerTitle{padding-left: 8px;font-weight: bold; display: inline-block;padding-top: 4px; cursor: pointer}
+#zWallStickerHeader .zStickerHeaderArrow{float: right;}
+#zWallStickerSearch{padding: 10px;}
+#zWallStickerSearch input{width: 95%}
+.zWallStickerWidgetHeader{background: url('../images/sticker/sticker-light/widget-header.png') repeat-x;padding-left: 15px;}
+.zWallStickerWidgetHeader a{margin-right: 15px;}
+.zWallStickerWidgetHeaderArrow{background: url('../images/sticker/arrow-right.png') repeat-x;}
+.zWallStickerWidget{background: url('../images/sticker/sticker-light/widget-bg.png') repeat-x bottom;position: relative}
+.zWallStickerWidget .blog{padding-left: 65px;position: relative;min-height: 65px;margin-top: 7px;width: 265px;}
+.zWallStickerWidget .avatar{/* background:  url('../images/sticker/sticker-light/mask.png') no-repeat; */position: absolute;height: 45px;width: 45px;left: 10px; }
+.zWallStickerWidget .avatar img {height: 45px;width: 45px;left: 10px; }
+.zWallStickerWidget .title{color: #8cd8ff;font-size: 11px;display: inline-block;padding-left: 10px;padding-top: 6px;font-weight: bold;display: inline-block}
+.zWallStickerWidget .title a{color: #000;font-size: 11px;font-weight: bold;text-decoration: none}
+.zWallStickerWidget .link a{color: #5a5c5e;font-size: 10px;font-weight: bold;text-decoration: none;padding-left: 10px;}
+.zWallStickerWidget .link a:hover{text-decoration: underline;}
+.zWallStickerWidget .follow{float: right;margin-right: 10px;}
+.zWallStickerWidget .divide{background: url('../images/sticker/sticker-light/horizontal-divide.png') repeat-x;height: 5px;margin-left: 10px; }
+#zWallStickerFooter{background: url('../images/sticker/sticker-light/footer-bg.png') repeat-x;height: 44px;color: #FFF;font-size: 15px;padding-top: 2px;padding-top: 7px;}
+#zWallSticker ul{list-style: none;list-style-type: none;}
+#zWallSticker ul li{list-style: none;list-style-type: none;display: inline-block;width: 32%}
+#zWallSticker ul li img{display: block;margin: 0 auto}
+.zWallStickerFooterDivide{background: url('../images/sticker/footer-divide.png') no-repeat 100% 50%; }
+.zWallStickerEmpty{padding: 10px;font-weight: bold;font-size: 13px;text-align: center;margin: 0}
+

@@ -1,0 +1,12 @@
+.zWallStickerWidgetScroll { width: 290px; clear: both; }
+.zWallStickerWidgetScroll .viewport { width: 270px; height: 170px; overflow: hidden; position: relative; }
+.zWallStickerWidgetScroll .overview { list-style: none; position: absolute; left: 0; top: 0; }
+.zWallStickerWidgetScroll .thumb .end,
+.zWallStickerWidgetScroll .thumb { background: #4373a3;-webkit-border-radius: 6px;-moz-border-radius: 6px;border-radius: 6px; }
+.zWallStickerWidgetScroll .scrollbar { position: relative; float: right; width: 10px; }
+.zWallStickerWidgetScroll .track { background: url('../images/sticker/sticker-dark/scroll-bg.png') repeat-y; height: 100%; width:13px; position: relative; padding: 0 1px; }
+.zWallStickerWidgetScroll .thumb { height: 20px; width: 5px; cursor: pointer; overflow: hidden; position: absolute; top: 0; }
+.zWallStickerWidgetScroll .thumb .end { overflow: hidden; height: 5px; width: 13px; }
+.zWallStickerWidgetScroll .disable{ display: none; }
+.noSelect { user-select: none; -o-user-select: none; -moz-user-select: none; -khtml-user-select: none; -webkit-user-select: none; }
+

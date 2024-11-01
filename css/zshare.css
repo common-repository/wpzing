@@ -1,0 +1,33 @@
+body{font-family: Arial}
+a{color: #1982d1;}
+p,ul,a{margin: 0;-webkit-margin-before:0}
+/*zWall Form*/ 
+
+.zHeader{height: 115px;background: url(http://zingsphere.com/img/header.png) repeat-x}
+.zShareFormHolder{padding: 15px;color: #2A82B2;background: #E8E8E8}
+.zWallForm {padding: 12px 0;width: 600px;}
+.zWallForm .zWallEmbedHolder{display:none;background: #FFF;position:relative;border:1px solid #c8c8c8;border-top: 1px dashed #c8c8c8;overflow: auto;padding: 5px;margin-bottom: 5px;margin-top: -6px}
+.zWallForm textarea {display: block; width: 100%; resize: none; margin-bottom: 5px; padding: 5px; background: #fafafa; border: none; border: 1px solid #c8c8c8;font-size: 0.86em;}
+.zWallFormFooter{margin-bottom:5px; }
+.zWallFormFooter .comment_button{border:1px solid #C8C8C8;padding: 7px 12px;color: #1982D1;cursor: pointer;background: whitesmoke;-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;margin-top: 4px;}
+.zWallFormDeleteComment{position: absolute;right: 110px;}
+
+/* zWallEmbed */
+.zWallEmbed{padding: 15px;word-wrap: break;position: relative}
+.zWallEmbedPreview{position:relative;padding-left:60px;}
+.zWallEmbedPreviewContent{padding: 3px;border: 1px solid #C8C8C8;overflow: auto;background: #F7F7F7  }
+.zWallEmbedImage{float: left;border: 1px solid #C8C8C8;margin-right: 5px; width: 115px;vertical-align:middle;}
+.zWallEmbedList{list-style: none;margin: 0;margin-bottom: 3px;display: block}
+.zWallEmbedNav{text-align: center;margin: 0 auto}
+.zWallNavRight{background: url('../images/right.png') no-repeat;width: 30px;display: inline-block;cursor: pointer;margin-top: 3px;}
+.zWallNavLeft{background: url('../images/left.png') no-repeat;width: 30px;display: inline-block;cursor: pointer;margin-top: 3px;}
+.zWallEmbedList li{display: none;}
+.zWallEmbedPlay{position: absolute;top:40px;left: 65px;}
+.zWallEmbedTitle{margin-bottom: 0;word-wrap: break;}
+.zWallEmbedVideo{display: none;width: 250px;}
+.zWallEmbedTitle a{font-weight: bold;font-size: 0.8em;word-wrap: break;}
+.zWallEmbedDescription{font-size: 0.7em;margin-bottom: 0;}
+.zWallCloseEmbed{position: absolute;right: 4px;top: 2px;border: 1px solid #C8C8C8;padding: 0px 4px 2px 4px;cursor: pointer}
+.zWallCloseEmbed:hover{background:#FAFAFA }
+
+/*<a onclick="return false;" oncontextmenu="if(window.navigator.userAgent.indexOf('WebKit')!=-1||window.navigator.userAgent.indexOf('MSIE')!=-1)jQuery('.pressthis-code').show().find('textarea').focus().select();return false;" href="javascript:var d=document,w=window,e=w.getSelection,k=d.getSelection,x=d.selection,s=(e?e():(k)?k():(x?x.createRange().text:0)),f='http://wordpress.dev/wp-admin/press-this.php',l=d.location,e=encodeURIComponent,u=f+'?u='+e(l.href)+'&t='+e(d.title)+'&s='+e(s)+'&v=4';a=function(){if(!w.open(u,'t','toolbar=0,resizable=1,scrollbars=1,status=1,width=720,height=570'))l.href=u;};if (/Firefox/.test(navigator.userAgent)) setTimeout(a, 0); else a();void(0)"><span>Press This</span></a>*/

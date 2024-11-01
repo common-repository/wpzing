@@ -1,0 +1,263 @@
+/*
+ * zWall Styling
+ */
+
+#zWall {font-family: Arial, Helvetica, sans-serif; font-size: 14px; line-height: 130%;}
+
+ /*zWall Tabs & Search */
+#zWallTabs {line-height: 35px;}
+#zWallTabs .zWallTab {display: block; float: left; height: 35px; padding: 0 10px; margin-right: 5px; color: #323232; background: #e6e6e6; cursor: pointer;}
+#zWallTabs .zWallTab .close {margin-top: -17px; position: absolute;}
+#zWallTabs .zWallTab.active{font-weight: bold;}
+#zWallTabs .zWallPowered {float: right; padding: 0 5px 0 0; font-size: 12px; font-style: italic; color: #969696;}
+#zWallTabs .zWallSearch {float: left; height: 35px; line-height: 35px; padding: 0 7px; background: #e6e6e6;}
+#zWallTabs .zWallSearch input[type=text] {display: inline-block; height: 13px; padding: 5px; font-family: Arial, Helvetica, sans-serif; font-size: 13px; color: #787878; background: #ffffff; border: 1px solid #ffffff; vertical-align: middle;}
+#zWallTabs .zWallSearch input[type=image] {margin-left: 2px; vertical-align: middle;}
+#zWallTabs .zWallSearch span {margin-left: 5px; cursor: pointer;}
+ /*zWall Subtabs*/ 
+#zWallSubtabs {height: 25px; line-height: 25px; padding-left: 5px; border-top: 1px solid #c8c8c8;}
+#zWallSubtabs span {font-size: 13px; margin-right: 15px; color: #1982d1; cursor: pointer;}
+#zWallSubtabs .active{text-decoration: underline}
+/* zWall Action */
+#zWallAction {padding: 10px 0; font-size: 13px; color: #646464; line-height: 100%;}
+
+ /*zWall Twitter */
+#zWallTwitter{padding: 0;width: 600px;}
+#zWallTwitter p{margin: 0}
+#zWallTwitterContent{padding: 0 7px;}
+
+.zWallTweet  i{background:url('http://si0.twimg.com/a/1359515917/t1/img/twitter_web_sprite_icons.png');margin-left: 5px;}
+.zWallTweet{position: relative; padding: 0px 0px 0px 58px; border-top: 1px solid #c8c8c8;overflow: auto;margin: 7px 0;}
+.zTweetHover:hover{background-color: #F5F5F5}
+.zWallTweetContent{padding: 5px 0 0 0 }
+.zWallTweet .rtf{position: absolute;right: 0;width: 20px;}
+.zWallTweet .refavorited{background: url('http://si0.twimg.com/a/1359515917/t1/img/twitter_web_sprite_icons.png');background-position: -60px -450px;position: absolute;right: 0;width: 25px;}
+.zWallTweet .retweeted{background: url('http://si0.twimg.com/a/1359515917/t1/img/twitter_web_sprite_icons.png');background-position: 0 -450px;position: absolute;right: 0;width: 25px;}
+.zWallTweet .favorited{background: url('http://si0.twimg.com/a/1359515917/t1/img/twitter_web_sprite_icons.png');background-position: -30px -450px;position: absolute;right: 0;width: 25px;}
+.zWallTweet .zWallPhoto {position: absolute; left: 0;top:10px;-webkit-border-radius: 6px;-moz-border-radius: 6px;border-radius: 6px;}
+.zWallTweet .zWallTweetName {color: #333333; font-weight: bold; cursor: pointer;text-align: left;display: inline-block;margin-bottom: 4px; }
+.zWallTweet .zWallTweetName:hover{color: #1982D1}
+.zWallTweet .zWallTweetName span a{color: #BBBBBB;font-weight: normal;font-size: 80%}
+.zWallTweet .zWallTweetName span a:hover{color: #BBBBBB;font-weight: normal;font-size: 80%;text-decoration: none}
+.zWallTweet .zWallTweetActions {list-style-type: none;}
+.zWallTweet .zTweetData{padding: 5px 0}
+.zWallTweet .zWallTweetActions{font-size: 0.8em}
+.zWallTweet .zWallTweetActions .zTweetData li{list-style-type: none;}
+.zWallTweet .zTweetData{border-top: 1px solid #c8c8c8;border-bottom: 1px solid #c8c8c8;margin-top: 10px;}
+.zWallTweet .zWallTweetActions ul{list-style-type: none;margin-right: 5px;}
+.zWallTweet .zWallTweetActions li{margin-right: 5px;float: left;}
+.zWallTweet .zWallTweetAction{margin-top: 12px;}
+.zWallTweet  ul{margin: 0;list-style-type: none;}
+.zWallTweet .zWallTweetCount{font-size: 0.9em;line-height:0.9em;}
+.zWallTweet .zWallTweetCount a{color: #333333}
+.zWallTweet .zWallTweetCount a:hover{color: #1982D1}
+.zWallTweet .zWallTweetContent{padding-bottom: 10px;cursor: pointer}
+.zWallTweet .zWallTweetText{font-size: 12px;color: #373737;font-weight: normal;text-align: left}
+.zWallTweet .zWallTweetCountGray{margin-top: 5px;color:#c8c8c8;font-size: 0.7em }
+.zWallTweet .zWallTweetActions{margin-top: 7px }
+.zWallTweet .zWallTweetActions .visible{display: inline-block}
+.zWallTweet .zWallTweetActions .visibleFixed{display: inline}
+.zWallTweet .zWallTweetActions .zWallTweetExpand{color: #AAAAAA} #zWallTwitter .zWallTweet .zWallTweetActions .zWallTweetExpand:hover{color: #1982D1}
+.zWallTweet .zWallTweetActions .zWallTweetActiveRetweet{color: #609928}
+.zWallTweet .zWallTweetActions .zWallTweetActiveFavorite{color: #FF9B00; }
+.zWallTweet .zWallTweetActions .zWallTweetPhotoLink{ background-position: -60px -190px;width: 12px;background-color: #0084B4}
+.zWallTweet .zWallTweetActions .zWallTweetRetweeted{width: 14px;background-position: -20px -190px;background-color: #609928}
+.zWallTweet .zWallTweetActions .zWallTweetRetweet{width: 14px;background-position: -20px -190px;background-color: #0084B4}
+.zWallTweet .zWallTweetRetweetBadge{background-position: -60px -350px;}
+.zWallTweet .zWallTweetActions .zWallTweetFavorite{background-position: -40px -220px;background-color: #0084B4}
+.zWallTweet .zWallTweetActions .zWallTweetDelete{background-position:-160px -220px;background-color: #0084B4}
+.zWallTweet .zWallTweetActions .zWallTweetFavorited{background-color: #FF9B00;background-position: -40px -190px;}
+.zWallTweet .zWallTweetActions .zWallTweetReply{background-position: 0 -220px;background-color: #0084B4;}
+.zWallTweet .zTwitterDate{padding: 12px 0px;color: #AAAAAA;font-size: 0.9em}
+.zWallTweet .zTwitterDate a{color: #AAAAAA} #zWallTwitter .zWallTweet .zTwitterDate a:hover{color: #1982D1}
+.zWallTweet .zWallRetweetData{margin-top: 12px;}
+.zWallTweet .zWallRetweetData, .zWallTweet .zWallRetweetData a {color: #999999;font-size: 12px;}
+
+.zWallTweet .zTwitterReplyContent{background-color: #F5F5F5;padding: 15px 12px 15px 70px;margin-left: -60px;border-top: 1px solid #C8C8C8;overflow: auto}
+.zWallTweet .zTwitterReply .zTwitterReplyText{text-align: left; width: 420px;color: #AAAAAA;height: 24px;padding: 8px;resize: none;vertical-align: top;box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05) inset, 0 1px 0 rgba(255, 255, 255, 0.075);transition: background 0.2s linear 0s;-webkit-border-radius: 6px;-moz-border-radius: 6px;border-radius: 6px;}
+.zWallTweet .zTwitterReply .active{-webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, .05),0 1px 0 rgba(255, 255, 255, .075);-moz-box-shadow: inset 0 1px 3px rgba(0,0,0,.05),0 1px 0 rgba(255,255,255,.075);box-shadow: inset 0 1px 3px rgba(0, 0, 0, .05),0 1px 0 rgba(255, 255, 255, .075);-webkit-transition: .2s linear background;-moz-transition: .2s linear background;transition: .2s linear background;}
+.zWallTweet .zTwitterReply .zTwitterCounter{float: right;padding: 10px 10px;color:#AAAAAA}
+
+.zWallTweetButton{color:#6D6D6D;background-color:  #E4E4E4;font-weight: bold;float:right;cursor: pointer;-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;padding: 4px 10px;margin-right: 52px;margin-top: 5px;border-color: #057ED0;position: relative;display: inline-block;border: 1px solid #CCC}
+.zWallTweetButtonActive{color:#FFFFFF;font-weight: bold;background-image: -khtml-gradient(linear,left top,left bottom,from(#33BCEF),to(#019AD2));background-image: -moz-linear-gradient(#33BCEF,#019AD2);background-image: -ms-linear-gradient(#33BCEF,#019AD2);
+background-image: -webkit-gradient(linear,left top,left bottom,color-stop(0%,#33BCEF),color-stop(100%,#019AD2));background-image: -webkit-linear-gradient(#33BCEF,#019AD2);background-image: -o-linear-gradient(#33BCEF,#019AD2);
+background-image: linear-gradient(#33BCEF,#019AD2);filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=\\\'#33bcef\\\',endColorstr=\\\'#019ad2\\\',GradientType=0);}
+
+.zWallRetweet{background-color: #F5F5F5;}
+.zWallRetweet .zWallTweet{background-color: #F5F5F5;border-top: none;min-height: 100px;}
+.zWallRetweetPhoto{float:left;-webkit-border-radius: 6px;-moz-border-radius: 6px;border-radius: 6px;}
+.zWallRetweetName {color: #333333; font-weight: bold; cursor: pointer;font-size: 13px;}
+.zWallRetweetTweetName:hover{color: #1982D1}
+
+ /*zWall Facebook*/ 
+#zWallFb{font-family: lucida,tahoma,verdana,arial,sans-serif;position: relative}
+#zWallFb .zWallFbPost {position: relative; padding: 15px 5px; border-top: 1px solid #c8c8c8;overflow: auto}
+#zWallFb .zWallFbPost .zWallFbPostAvatar {display: block; float: left; margin: 0; padding: 1px; background: #ffffff; border: 1px solid #d2d2d2;}
+#zWallFb .zWallFbPost .zWallFbPostContent {padding-left: 5px;overflow: auto}
+#zWallFb .zWallFbPost .zWallFbPostTitle {line-height: 100%;font-size: 13px;}
+#zWallFb .zWallFbPost .zWallFbPostTitle a{color: #3B5998;font-weight: bold}
+#zWallFb .zWallFbPost .zWallFbPostStatus {padding-top: 10px;font-size: 14px;}
+#zWallFb .zWallFbPost .zWallFbPostLink {padding-top: 10px;overflow: auto;padding-bottom: 2px;}
+#zWallFb .zWallFbPost .zWallFbPostLink img{float: left;max-width: 480px}
+#zWallFb .zWallFbPost .zWallFbPostLink .description{font-size: 11px;color: gray;margin-top: 5px;}
+#zWallFb .zWallFbPost .zWallFbPostLink .video_content{position: relative;overflow: auto;background: #F7F7F7;border: 1px solid #D4D4D4;max-width: 500px;}
+#zWallFb .zWallFbPost .zWallFbPostLink .content{position: relative;overflow: auto;max-width: 500px;}
+#zWallFb .zWallFbPost .zWallFbPostLink .content p{line-height: 13px;margin: 0;padding: 3px;}
+#zWallFb .zWallFbPost .zWallFbPostLink .description{display: block;line-height: 11px;padding: 5px;}
+#zWallFb .zWallFbPost .zWall-facebookAction{color: #6D84B4;cursor: pointer;padding: 3px 5px;font-size: 11px;}
+#zWallFb .zWallFbPost .zWall-facebookAction:hover{text-decoration: underline;}
+#zWallFb .zWallFbPost .time {color: #999999;font-size: 11px;}
+#zWallFb .zWallFbPost .fbVideo{float: left;background: #F7F7F7;margin-right: 5px;}
+#zWallFb .zWallFbPost .fbLinkTitle{color: #3B5998;font-weight: bold;font-size: 12px;margin-bottom: 4px;}
+#zWallFb .zWallFbPost .fbActions{width: 500px;}
+#zWallFb .zWallFbPost .likes {font-size: 11px;background: #EDEFF4;padding: 2px 4px;}
+#zWallFb .zWallFbPost .likes a{color: #3B5998;font-weight: normal}
+#zWallFb .zWallFbPost .comment{background: #EDEFF4;margin-top: 1px;font-size: 11px;overflow: auto}
+#zWallFb .zWallFbPost .comment a{color: #3B5998;font-weight: bold;}
+#zWallFb .zWallFbPost .comment_data{padding-left: 38px;line-height: 14px;}
+#zWallFb .zWallFbPost .comment_avatar{width: 32;height: 32px;float: left;margin-right: 5px;}
+#zWallFb .zWallFbPost .comment input{font-size: 11px;margin-left: 4px;margin-top: 3px;width: 280px;}
+ 
+/*zWall Tumblr*/
+/*http://assets.tumblr.com/images/dashboard_master_sprite.png*/
+#zWallTumblr{color: #444;font-family: 'Helvetica';font-size: 14px;-webkit-border-radius: 6px;-moz-border-radius: 6px;border-radius: 6px;}
+#zWallTumblr p{margin: 0;padding: 0}
+#zWallTumblrContent{background: #2c4762;padding: 20px 10px}
+#zWallTumblr #unfollow_overlay{position: absolute;width: 100%;height: 100%;display: none;z-index: 150}
+.zTumblrPostWrapper{padding-left: 70px;position: relative}
+.zTumblrPostWrapper .avatar{width: 60px;height: 60px;-webkit-border-radius: 6px;-moz-border-radius: 6px;border-radius: 6px;position: absolute;left: 0;-webkit-box-shadow: 0 1px 5px rgba(0,0,0,.46);-moz-box-shadow: 0 1px 5px rgba(0,0,0,.46);box-shadow: 0 1px 5px rgba(0,0,0,.46);border-bottom: 0;}
+.zTumblrPostWrapper .avatar .info{background-image: url(http://assets.tumblr.com/images/dashboard_master_sprite.png);background-position:  -500px -130px;opacity:0;position: absolute;left: 5px;top:40px;cursor:pointer;width: 16px;height: 17px;display: inline-block} 
+.zTumblrPostWrapper .avatar img{width: 61px;height: 60px;-webkit-border-radius: 6px;-moz-border-radius: 6px;border-radius: 6px;}
+.zTumblrPostWrapper .unfollow{display: none;background-color: #f3f3f3;cursor: pointer;position: absolute;top: 67px;left: -20px;padding: 4px;min-width: 90px;z-index: 2147483647;-webkit-border-radius: 6px;-moz-border-radius: 6px;border-radius: 6px;-webkit-box-shadow: 0 4px 9px rgba(0,0,0,0.35);-moz-box-shadow: 0 4px 9px rgba(0,0,0,0.35);box-shadow: 0 4px 9px rgba(0,0,0,0.35);font-weight: bold;font-size: 14px}
+.zTumblrPostWrapper .unfollow .arrow-up {width: 0;	height: 0;	border-left: 10px solid transparent;	border-right: 10px solid transparent;border-bottom: 10px solid #f3f3f3;position: absolute;top: -10px;left: 23px}
+.zTumblrPostWrapper .unfollow ul{list-style-type: none;padding: 0;margin: 0}
+.zTumblrPostWrapper .unfollow ul li{padding: 4px 10px;}
+.zTumblrPost{-webkit-border-radius: 6px;-moz-border-radius: 6px;border-radius: 6px;background: #FFF;position: relative;margin: 15px 0;}
+.zTumblrPost .corner{ position: absolute;height: 20px;width: 20px;right: -3px;top: -5px;display: none;background: url(http://assets.tumblr.com/images/posts/dogear.png);}
+.zTumblrPost .textTitle{font-weight: bold;font-size: 22px}
+.zTumblrPost .tumblrAudio{}
+.zTumblrPost .tumblrQuote{font-weight: bold;}
+.zTumblrPost .tumblrLink a{font-weight: bold;color: #444}
+.zTumblrPost .tumblrChat .chatTitle{font-size: 22px;font-weight: bold}
+.zTumblrPost .tumblrChat .chatBody{padding: 4px;border: #C6C6C6}
+.zTumblrPost .zTumblrBlogLink{color:#a8b1ba;text-decoration: none;font-weight: bold }
+.zTumblrPost .zTumblrBlogLink:hover{text-decoration: underline}
+.zTumblrPostBody{padding: 10px 15px}
+.zTumblrPostBody .footerText a{color: #444;text-decoration: underline}
+.zTumblrPostFooter{color:#a8b1ba;font-size: 12px;}
+.zTumblrPostFooter .tumblrSource{color:#a8b1ba}
+.zTumblrPostFooter .tumblrTag{margin-left: 7px;color:#a8b1ba}
+.zTumblrPostHeaderLeft{float: left;padding-left: 12px;padding-top: 3px;}
+.zTumblrPostHeaderRight{float: right;padding-right:20px;padding-top: 3px;}
+.zTumblrPostHeaderRight span {font-size:13px;background-image: url(http://assets.tumblr.com/images/dashboard_master_sprite.png);display: inline-block;cursor: pointer;margin-left: 20px;margin-top: 4px}
+.zTumblrPostHeaderRight span:hover{opacity: 1}
+.zTumblrLike{background-position: -500px -214px;opacity: 0.65;height: 19px;width: 19px;margin-top: 8px;}
+.zTumblrNote{vertical-align: top;text-align: center;padding: 0 2px;min-width: 20px;-webkit-border-radius: 2px;-moz-border-radius: 2px;-ms-border-radius: 2px;-o-border-radius: 2px;border-radius: 2px;background-color: #b0b4bd;color: #FFF}
+.zTumblrUnlike{background-position:-529px -214px!important;opacity: 1;height: 19px;width: 19px;}
+.zTumblrReblog{background-position: -498px -270px;width: 24px;height: 20px;opacity: 0.7}
+.zTumblrDelete{background-position: -918px -125px;height: 19px;width: 19px;}
+.zTumblrEdit{background-position: -918px -185px;width: 22px;height: 19px;}
+
+/*zWallSearch*/
+#zSearch {border-top: 1px solid #c8c8c8;}
+.zWallSearchLoader{background: url('../images/ajax-loader.png') no-repeat left top;}
+ /*zWall Post */
+#zWallTwitter p{margin: 0 !important}
+.zWallPost {position: relative; padding: 12px 105px 12px 5px; border-top: 1px solid #d2d2d2;}
+.zWallPost .zWallPostTitle {margin-bottom: 5px; font-size: 16px;}
+.zWallPost .zWallPostSubtitle {padding: 15px 0 3px 0; font-size: 11px; text-transform: uppercase;}
+.zWallPost .zWallPostIcon {margin-bottom: -3px;margin-left: 1px;}
+.zWallPost .zWallPostSocialIcon {margin-left: 5px;position: absolute;left: 0;top: 60px;}
+.zWallPost .zWallPostSocialIconTwitter{position: absolute;left: 39px;top:60px;}
+.zWallPost .zWallStatus{font-size: 0.9em;margin-bottom: 5px}
+.zWallPost .zWallDisplayName{font-size: 0.9em;font-weight: bold;margin-bottom: 0}
+.zWallPost .zWallPostStatus {position: absolute; top: 12px; right: 5px; font-size: 12px; line-height: 16px; font-style: italic; color: #787878;}
+.zWallPost .zWallPostStatus .zWallStatusDelete{font-style: normal;padding: 2px 3px;cursor: pointer;}
+.zWallPost .zWallPostStatus .zWallStatusDelete:hover{font-style: normal;font-weight: bold;background: #FAFAFA;border: 1px solid #C8C8C8;}
+.zWallPost .zWallPostTwitterIcon {margin-right: 5px;}
+.zWallPost .zWalluserImage{float: left;width: 60px;height: 60px;margin-right: 5px}
+.zWallPost .twitterUserImage img{-webkit-border-radius: 6px;-moz-border-radius: 6px;border-radius: 6px;}
+.zWallPost .zWallFbCommentWrapper{padding-left: 70px;}
+.zWallPost .zWallFbComment{background: #EDEFF4;margin-top: 1px;font-size: 11px;overflow: auto}
+.zWallPost .zWallFbComment a{color: #3B5998;font-weight: bold;}
+.zWallPost  .zWallFbComment.zWallFbCommentData{padding-left: 38px;line-height: 14px;}
+.zWallPost .zWallFbComment .zWallFbCommentAvatar{width: 32;height: 32px;float: left;margin-right: 5px;}
+.zWallPost .zWallFbComment input{font-size: 11px;margin-left: 4px;margin-top: 3px;width: 280px;}
+.comment_button{border:1px solid #C8C8C8;color: #1982D1;cursor: pointer;background: whitesmoke;-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;margin-top: 4px;}
+
+
+ /*zWall Article */
+.zWallArticle {position: relative; padding: 15px 5px; border-top: 1px solid #d2d2d2;}
+.zWallArticle .zWallArticleScore {position: absolute; display: block; padding-top: 5px; background: url(http://zingsphere.com/img/entanglement.png) no-repeat left top;}
+.zWallArticle .zWallArticleScore span {display: block; width: 50px; height: 45px; margin: 0; padding: 0; line-height: 40px; font-size: 16px; font-weight: bold; text-align: center; color: #ffffff; background: url(http://www.zingsphere.com/img/entanglement.png) no-repeat -50px bottom;}
+.zWallArticle .zWallArticleContent {padding-left: 60px;}
+.zWallArticle .zWallArticleTitle {font-size: 18px; line-height: 120%;}
+.zWallArticle .zWallArticleMeta {padding: 8px 0 15px 0; font-size: 12px; line-height: 100%; color: #646464;}
+.zWallArticle .zWallArticlePhoto {display: block; float: left; width: 122px;}
+.zWallArticle .zWallArticlePhoto img {margin: 0; padding: 1px; background: #ffffff; border: 1px solid #d2d2d2;}
+.zWallArticle .zWallArticleDescription {display: block; position: relative; margin-left: 132px; font-size: 13px; line-height: 130%; color: #646464;}
+.zWallArticle .zWallArticleItems {padding-top: 5px; font-size: 13px; color: #646464;}
+.zWallArticle .zFollowButton{margin-top: 5px;padding: 5px 10px;border:1px solid #C8C8C8;color: #1982D1;cursor: pointer;background: whitesmoke;-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;margin-top: 4px;}
+
+/*zWall Comment & Comment Form*/ 
+.zWallPost .zWallComment {padding: 10px; padding-right: 45px; font-size: 13px; line-height: 140%; color: #323232; background: #f5f5f5;overflow: auto;position: relative; border-top: 1px solid #ffffff; word-wrap: break-word;}
+.zWallPost .zWallComment p{margin: 0}
+.zWallPost .zWallCommentAuthor,.zWallCommentText{margin: 0;padding: 0;}
+.zWallPost  .zWallCommentBox{padding-top: 5px;}
+.zWallPost .zWallCommentForm {padding-top: 15px;}
+.zWallPost .zWallCommentForm .zWallCommentInput{margin:2px 0;width:60%;height: 20px;resize: none;}
+
+
+.zWallPost .zWallFormDeleteComment{position: absolute;right: 0;top: 5px;}
+ /*zWall Form */
+ /*.zWallFormHolder{ height: 50px; }*/
+.zWallFormHolder{overflow: hidden;border-bottom:1px solid #c8c8c8;}
+.zWallForm {padding: 12px 0; border-top: 1px solid #d2d2d2;}
+.zWallForm .zWallEmbedHolder{display:none;position:relative;border:1px solid #c8c8c8;border-top: 1px dashed #c8c8c8;overflow: auto;padding: 5px;margin-bottom: 5px;margin-top: -6px;width: 98%}
+.zWallForm textarea {display: block; width: 98%; resize: none; margin-bottom: 5px; padding: 5px; background: #fafafa; border: none; border: 1px solid #c8c8c8;font-size: 0.86em;}
+.zWallFormFooter{margin-bottom:5px; }
+.zWallFormFooter .comment_button{border:1px solid #C8C8C8;color: #1982D1;cursor: pointer;background: whitesmoke;-webkit-border-radius: 4px;-moz-border-radius: 4px;border-radius: 4px;margin-top: 4px;}
+.zWallFormDeleteComment{position: absolute;right: 110px;}
+
+/* zWallEmbed */
+.zWallEmbed{padding: 5px;word-wrap: break;position: relative}
+.zWallEmbedPreview{position:relative;padding-left:60px;word-wrap: break-word; }
+.zWallEmbedPreviewContent{padding: 3px;border: 1px solid #C8C8C8;overflow: auto;background: #F7F7F7;word-wrap: break-word; }
+.zWallEmbedImage{float: left;border: 1px solid #C8C8C8;margin-right: 5px; width: 115px;vertical-align:middle;}
+.zWallEmbedList{list-style: none;margin: 0;margin-bottom: 3px;display: block}
+.zWallEmbedNav{text-align: center;margin: 0 auto}
+.zWallNavRight{background: url('../images/right.png') no-repeat;width: 30px;display: inline-block;cursor: pointer;margin-top: 3px;}
+.zWallNavLeft{background: url('../images/left.png') no-repeat;width: 30px;display: inline-block;cursor: pointer;margin-top: 3px;}
+.zWallEmbedList li{display: none}
+.zWallEmbedPlay{position: absolute;top:40px;left: 65px;}
+.zWallEmbedTitle{margin-bottom: 0;word-wrap: break-word;padding-left:125px;}
+.zWallEmbedVideo{display: none;width: 250px;}
+.zWallEmbedTitle a{font-weight: bold;font-size: 0.8em;word-wrap: break-word;}
+.zWallEmbedDescription{font-size: 0.7em;margin-bottom: 0;padding-left:125px;}
+.zWallCloseEmbed{position: absolute;right: 4px;top: 2px;border: 1px solid #C8C8C8;padding: 0px 4px 2px 4px;cursor: pointer}
+.zWallCloseEmbed:hover{background:#FAFAFA }
+
+/* zWall Todo List */
+#zWallTodo {padding: 10px; background: #fafafa; border: 1px solid #c8c8c8; border-bottom: none;margin-top: 10px;}
+#zWallTodo .zWallTodoTitle {padding: 0 0 10px 0; font-size: 18px;}
+#zWallTodo .zWallTodoTitle span{float: right; padding: 0 5px; font-size: 14px; border: 1px solid #c8c8c8; background: #e8e8e8; cursor: pointer;}
+#zWallTodo ul {list-style-type: circle; margin: 10px 0 0 20px;}
+#zWallTodo ul li {padding: 5px 0; font-style: italic;}
+#zWallTodo ul li span {float: right; margin: 0; padding: 0; font-size: 13px; color: #1982d1; cursor: pointer;}
+
+
+/* zWall Feedback */
+#zWallFeedbackButton { position: fixed; margin: 0; padding: 1px 1px 1px 0; left: 0; top: 20%; z-index: 9999; background: #ffffff; border: 1px solid #0d4680; border-left: none; cursor: pointer; }
+#zWallFeedbackButton span { display: block; margin: 0; padding: 10px; font-family: Arial, sans-serif; font-size: 13px; font-weight: bold; color: #ffffff; background: #3892be; }
+#zWallFeedback { position: fixed; display: none; top: 0; left: 0; bottom: 0; width: 100%; z-index: 99999; }
+#zWallFeedbackClose { position: absolute; cursor: pointer; width: 30px; height: 30px; top: -24px; right: -24px; background-repeat: no-repeat; background-position: left top; }
+#zWallFeedbackOverlay { position: absolute; width: 100%; height: 100%; background: #000000; opacity: 0.40; z-index: 100; }
+#zWallFeedbackForm { position: relative; top: 15%; width: 590px; margin: 0 auto; background: #ffffff; border: 10px solid #ffffff; border-bottom-width: 6px; z-index: 200; }
+
+ /*Common */
+.zWallClear {clear: both}
+.zWallGrayed{text-align: center; font-size: 12px; font-style: italic; color: #969696;}
+.zWallLink {color: #1982d1; cursor: pointer;}
+.zingramLoader{position: relative;min-height: 500px;background: url('../images/ajax-loader.gif') no-repeat 50% 50%; }
+#zWall-settings_tabs ul li .active {color: #f0f0f0; border: 1px solid; border-right: 2px solid #ffffff;}
+.zWalluserImage a img {width: 60px;height: 45px;margin-right: 5px}
